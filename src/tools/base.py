@@ -136,3 +136,4 @@ class WebFetchTool(ToolInterface):
         """Fetch issuer catalog from web."""
         # Implementation will be mocked for testing
         pass
+

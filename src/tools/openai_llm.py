@@ -209,3 +209,4 @@ Please explain why these cards are recommended for this user.
         card_names = [getattr(card, 'card_id', str(card)) for card in card_list]
         
         return f"I found {len(card_list)} card(s) that match your needs: {', '.join(card_names[:3])}. These cards align with your goals of {', '.join(request.get('goals', ['rewards']))}."
+

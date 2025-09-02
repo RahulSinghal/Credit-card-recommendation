@@ -62,3 +62,4 @@ async def minimal_test():
 if __name__ == "__main__":
     success = asyncio.run(minimal_test())
     print(f"\n🎯 Minimal test {'SUCCESSFUL' if success else 'FAILED'}")
+

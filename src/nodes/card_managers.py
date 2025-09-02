@@ -431,3 +431,4 @@ def create_student_manager_node():
 
 def create_general_manager_node():
     return create_card_manager_node(GeneralManager)
+
